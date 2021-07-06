@@ -166,6 +166,7 @@ p{
 }
 .cardImg img{
     width: 95%;
+    border-radius: 20px;
 }
 .cardContent{
     padding: 10px 0;
@@ -247,3 +248,4 @@ p{
     text-transform: capitalize;
     padding: 20px 0;
 }
+/* footer part end */
