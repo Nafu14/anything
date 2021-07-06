@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    padding: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+h1{
+    font-size: 60px;
+    color: #252525;
+    font-family: 'Ubuntu', sans-serif;
+}
+h2{
+    font-size: 2rem;
+    color: #505050;
+}
+p{
+    font-family: 'open sans' sans-serif;
+}
+.commonBtn{
+    font-size: 14px;
+    color: white;
+    padding: 10px 20px;
+    background: linear-gradient(orange, red);
+    border-radius: 20px;
+    transition: .4s;
+}
+.commonBtn:hover{
+    font-size: 16px;
+    box-shadow: 0 0 15px #fc8804;
+}
+/* navbar css start */
+#navBar{
+    position: fixed;
+    top: 40%;
+    left: 1%;
+    background: transparent;
+    box-shadow: 0 0 10px #fcad04;
+    border-radius: 10px;
+}
+.navList{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .6s all;
+}
+.navList:hover{
+    background: linear-gradient(orange,red);
+}
+.navList:hover a{
+    color: #eee;
+}
+.navList a{
+    color: #404040;
+    transition: .4s all;
+}
+/* navbar part css end */
+
+/* header part css start */
+#header{
+    padding: 50px 0;
+}
+.hdrContent{
+    width: 50%;
+    padding-top: 100px;
+    margin-right: 150px;
+}
+.hdrImage{
+    width: 50%;
+}
+.hdrImage img{
+    width: 100%;
+}
+.hdrContent h1{
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.hdrContent span{
+    color: #fc8804;
+}
+.hdrContent p{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+/* header part css end */
+
+/* about part css start */
+#about{
+    margin: 50px 0;
+    background: url(../image/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.aboutImg{
+    width: 40%;
+    height: 100%;
+}
+.aboutImg img{
+    width: 60%;
+    height: 80%;
+    margin-top: 65px;
+    margin-left:100px;
+}
+.aboutContent{
+    width: 60%;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.aboutHeading h2{
+    margin-bottom: 50px;
+}
+.aboutHeading p{
+    padding-right: 80px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+/* about part css end */
