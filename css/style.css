@@ -51,6 +51,7 @@ p{
     background: transparent;
     box-shadow: 0 0 10px #fcad04;
     border-radius: 10px;
+    z-index: 99;
 }
 .navList{
     text-align: center;
@@ -132,3 +133,48 @@ p{
     margin-bottom: 50px;
 }
 /* about part css end */
+
+/* recipies part css start */
+#recipe{
+    padding: 50px 0;
+}
+.recipeHeading{
+    text-align: center;
+}
+.recipeHeading h2{
+    margin-bottom: 30px;
+}
+.recipeHeading p{
+    padding: 0 200px;
+}
+.recipeContent{
+    padding: 0 20px;
+}
+.recipeCard{
+    padding: 10px;
+    box-shadow: 0 0 8px #969696;
+    margin-top: 100px;
+    width: 33%;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.cardImg{
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+}
+.cardImg img{
+    width: 95%;
+}
+.cardContent{
+    padding: 10px 0;
+    text-align: start;
+    padding: 10px 20px;
+}
+.cardContent h3{
+    text-transform: capitalize;
+}
+.cardContent p{
+    padding: 10px 0;
+}
+/* recipies part css end */
