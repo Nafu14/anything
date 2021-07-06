@@ -149,13 +149,14 @@ p{
 }
 .recipeContent{
     padding: 0 20px;
+    margin-top: 50px;
 }
 .recipeCard{
     padding: 10px;
     box-shadow: 0 0 8px #969696;
     margin-top: 100px;
     width: 33%;
-    margin-right: 50px;
+    margin: 0 25px;
     border-radius: 20px;
 }
 .cardImg{
@@ -178,3 +179,71 @@ p{
     padding: 10px 0;
 }
 /* recipies part css end */
+
+/* countdown part css start */
+#countdown{
+    margin: 50px 0;
+}
+.cdBoxshadow{
+    box-shadow: 5px 5px 10px #555555;
+    padding: 25px 0;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+.cdContent{
+    width: 33%;
+    text-align: center;
+    padding: 25px 0;
+}
+/* countdown part css end */
+
+/* contact us part start */
+#contact{
+    background: url(../image/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 0;
+    padding: 25px 0;
+}
+.contactUs{
+    text-align: center;
+}
+.cmnInput{
+    padding: 10px 200px;
+    border: none;
+    border-bottom: 1px solid #404040;
+    background: transparent;
+    color: #252525;
+    font-size: 1rem;
+    text-align: center;
+    margin: 20px 0;
+}
+.problem{
+    border: none;
+    border-bottom: 1px solid #404040;
+    background: transparent;
+    color: #252525;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px 0;
+}
+/* contact us part end */
+#footer{
+    margin-top: 50px;
+    padding: 50PX 0;
+    background-color: #000;
+}
+.footerContnt{
+    text-align: center;
+}
+.footerContnt h2{
+    text-transform: uppercase;
+}
+.footerContnt span{
+    color: #fc8804;
+}
+.footerContnt p{
+    color: #fff;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
